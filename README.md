@@ -58,7 +58,7 @@ This example uses [cliffy](https://github.com/c4spar/deno-cliffy) and [chalk](ht
 Use the `--unstable` and `--allow-env` flags to run the third party modules:
   - `deno run --unstable --allow-env third-party-modules.js`
 
-_Note: Versioning is done by adding the version to the import url._
+_Note: Versioning is done by adding the version to the import url. NPM is still useful as an easy way to reference scripts and commands._
 
 ### Has support for the `window` object
 
@@ -77,7 +77,8 @@ A simple web server can be created using Deno's built in http server:
 _Note: If you prefer something more akin to [express.js](https://expressjs.com/) (though this is really more like [Koa](https://koajs.com/)), you could check out [Oak](https://github.com/oakserver/oak). I'm sensing a theme here with the anagrams._
 
 ## Links
-- [Deno](https://deno.land/)
+- [Deno (official)](https://deno.land/)
+- [Deno Benchmarks (official)](https://deno.land/benchmarks)
 - [Deno vs. Node, Most Important Differences](https://javascript.plainenglish.io/deno-vs-node-js-here-are-the-most-important-differences-62b547443be1)
 - [Deno Server in 60 Lines](https://typeofnan.dev/writing-your-first-deno-server-in-60-lines/)
 - [Deno vs. Node Performance](https://mayankchoubey.github.io/Deno-vs-Node-Performance/)
