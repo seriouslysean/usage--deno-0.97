@@ -14,6 +14,7 @@ Deno is a runtime for JavaScript/TypeScript which tries to be web compatible and
 ## Features
 
 * Uses the V8 engine and Rust under the hood which supposedly delivers similarly good performance to C++ with a security first approach
+* Supports Typescript, ES Modules and top level await out of the box
 * All features work via opt-in by the user
     - Environment variable access, net access, file access, plugins, etc.
 * Does not rely on `NPM` or `node_modules` at all
@@ -50,6 +51,11 @@ Use the `--allow-read` flag to allow file read access:
 Use the `--allow-net` flag to allow net access:
   - `deno run --allow-net fetch-url.js` for global access
   - `deno run --allow-net="www.freepeople.com" fetch-url.js` for specific access
+
+#### CLI Arguments
+
+Grabbing command line arguments out of the box is very easy:
+  - `deno run cli-args.js one two three four "five"`
 
 ### Does not rely on `NPM` or `node_modules` at all
 
