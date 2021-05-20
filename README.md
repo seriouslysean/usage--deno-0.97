@@ -77,8 +77,8 @@ A simple web server can be created using Deno's built in http server:
 _Note: If you prefer something more akin to [express.js](https://expressjs.com/) (though this is really more like [Koa](https://koajs.com/)), you could check out [Oak](https://github.com/oakserver/oak). I'm sensing a theme here with the anagrams._
 
 ## Links
-- [deno.land](https://deno.land/)
-- [plainenglish.io](https://javascript.plainenglish.io/)
-- [typeofnan](https://typeofnan.dev/writing-your-first-deno-server-in-60-lines/)
-
-
+- [Deno](https://deno.land/)
+- [Deno vs. Node, Most Important Differences](https://javascript.plainenglish.io/deno-vs-node-js-here-are-the-most-important-differences-62b547443be1)
+- [Deno Server in 60 Lines](https://typeofnan.dev/writing-your-first-deno-server-in-60-lines/)
+- [Deno vs. Node Performance](https://mayankchoubey.github.io/Deno-vs-Node-Performance/)
+- [Deno by Example](https://decipher.dev/deno-by-example/)
