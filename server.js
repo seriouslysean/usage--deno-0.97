@@ -1,4 +1,4 @@
-import { serve } from "https://deno.land/std/http/server.ts";
+import { serve } from "https://deno.land/std@0.97.0/http/server.ts";
 import { spacer } from './utils.js';
 
 spacer('Web Server');
